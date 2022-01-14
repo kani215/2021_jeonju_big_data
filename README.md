@@ -33,7 +33,7 @@
 
 >>>>>작업폴더>>>>stage>>head(log)>>>>>>>>>>>> 작업 파일이 올라가는 순서 단계입니다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3a9673b7-81ed-412f-b70d-3bc487e07744/Untitled.png)
+![1](https://user-images.githubusercontent.com/41600359/149460713-3878784c-9e2d-4129-a447-cbc3cdcc36b0.PNG)
 
 ---
 
@@ -50,16 +50,14 @@ git bash에서 해야할 작업은 3단계 까지 입니다.
 
 ## 2-1. add, status
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2de3382e-ab78-4616-8958-6b309eb69518/Untitled.png)
-
+![2](https://user-images.githubusercontent.com/41600359/149460769-cf8c32a5-8196-4781-b683-c07fc6e1bcc0.PNG)
 - git 연동폴더에 수정 업데이트된 파일이 발생했다면
 - git status                   명령어로 (빨간글씨) 변경상황 확인이 가능합니다.
 - git add 파일명          명령어로 stage라는 임시 메모리에  현재 상황을 올려 둡니다. (사이트 업로드 아직 안됨)
 - git reset HEAD~1     명령어로 add 실행 취소 할 수 있다.
 - git reset                    명령어로 전체취소
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a51e92e3-92e7-48d0-ab13-00a9cbc523aa/Untitled.png)
-
+![3](https://user-images.githubusercontent.com/41600359/149460785-167aa69d-7c9a-4fa8-ac0e-fc9d55078992.PNG)
 - 빨간 글씨는 메모리에 올리는 걸 실패했다는 뜻이다
 - 초록 글씨만 올라간다.
 
@@ -67,14 +65,12 @@ git bash에서 해야할 작업은 3단계 까지 입니다.
 
 - 허나 바로 원격저장소의 master(main) 폴더에 업로드 하면 안된다. 수정하기 어려워지기 때문 완전 무결할 때만 master로 가야한다. 지금처럼 개발 상태는 branch로 보내주어야한다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cad96b4a-b35e-4a82-bb37-4127865c4db7/Untitled.png)
-
+![4](https://user-images.githubusercontent.com/41600359/149460788-7c9d9ac4-9085-4f3c-bd52-362c5dc6ef48.PNG)
 - git branch                       명령어는 현재 가지치기 상태를 보여준다.
 - git branch 브랜치명       명령어는 원격저장소에 직접 브랜치를 생성해준다.
 - git checkout 브랜치명    명령어로 브랜치를 이동해서 작업할 수 있다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bb31bec9-7df8-4d9c-ac91-be7bb8b11a4e/Untitled.png)
-
+![5](https://user-images.githubusercontent.com/41600359/149460789-da6c7fc1-1d93-40d9-8fea-77a9744e2d10.PNG)
 # STEP3. commit push
 
 ## 3-1. commit
@@ -92,7 +88,7 @@ git bash에서 해야할 작업은 3단계 까지 입니다.
 - Master Branch는 최종 확정된 버전만 있습니다. = 릴리즈 버전
 - PR 요청 시 Part 장 혹은 전체 리뷰를 거쳐 함
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cc251bfc-db60-46be-89ba-16dde7474316/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cc251bfc-db60-46be-89ba-16dde7474316/Untitled.png)
+![6](https://user-images.githubusercontent.com/41600359/149460783-85209c20-b470-41ea-a86a-9c4190aabc45.PNG)
 
 i) Part 장만 PR하는 경우
 
